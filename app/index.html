@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Atlas — a national statistics explorer: population, GDP, life expectancy and more for 40 countries, with rankings, country profiles and side-by-side comparisons. All data embedded, works offline.">
+<title>Atlas — National Statistics Explorer</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◍</span>
+      <span class="brand-text"><strong>Atlas</strong><span class="brand-sub">National Statistics Explorer</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#/" data-nav="home">Countries</a>
+      <a href="#/rankings" data-nav="rankings">Rankings</a>
+      <a href="#/compare" data-nav="compare">Compare</a>
+      <a href="#/about" data-nav="about">Sources &amp; method</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Atlas</strong> — an independent national statistics explorer. Figures are approximate 2023–2024 estimates compiled from World Bank World Development Indicators, UN World Population Prospects 2024 and IMF World Economic Outlook (October 2024). See <a href="#/about">Sources &amp; method</a> for full notes.</p>
+    <p class="fine">All data is embedded in this site. It works fully offline — no network requests, no tracking, no cookies.</p>
+  </div>
+</footer>
+</body>
+</html>
